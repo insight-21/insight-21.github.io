@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一个三年</title>
+    <url>/archives/268092657/</url>
+    <content><![CDATA[<p>人生是每一个当下感受的积分</p>
+<a id="more"></a>
+
+<p>入职以来这三年，感觉自己就像得了信息饥渴症一样，在没人指导的前提下，疯狂地吸收所见所得，消化成自己的能力，虽然很厉害，但停下来的时候总感觉很累。</p>
+<p>还记得这个博客第一篇文章是个书单，列了一堆和 Java 相关的书，立誓要读完哪几本，结果工作后和 Java 已经毫无瓜葛，甚至都想不起当年阅读到深夜恍然大悟的源码。</p>
+<p>按时间顺序写总难免有点乏味无趣，就挑几个印象深刻的事情<del>（教训）</del>聊一聊吧。</p>
+<h2 id="PHP-MySQL-Go"><a href="#PHP-MySQL-Go" class="headerlink" title="PHP MySQL Go"></a>PHP MySQL Go</h2><p>直到入职第一个需求开始写代码时，我才想起来所有公司的面试我都没有询问开发语言，所有面试官也没提过，包括要入职哪个部门，公司的组织架构之类的事情也完全没有想过要了解一下，就这样迷迷糊糊地入职了</p>
+<p>PHP 好啊，好就好在一半的开发时间都在和同事搞字段暧昧，大部分时间都浪费在写错字段名，打日志，上传代码，重启服务，看这个变量的字段名和字段结构什么样的（你问我为什么不让同事给 Wiki，说得好，口口相传了解一下）</p>
+<p>PHP 好啊，好久就好在动态语言直接导致 MySQL 也失去了它应有的关系规范，一张表里全是 JSON 字段，美其名曰方便扩展，敏捷开发；甚至导致 Go 那边的代码也全是 <code>map[string]interface</code>，相关的代码都是获取变量类型然后 <code>switch case</code> 来取值，真是经典</p>
+<p>据说 PHP + MySQL 前期快速开发，后期迁移到 Go 是国外不少著名大厂比如 Facebook 带起的，国内的腾讯等公司也是如此</p>
+<p>（话说回来我们公司有点职位的大部分都和腾讯有关，无论产研，甚至不少是同学，堪称腾讯子公司，大学学生会联谊了）</p>
+<h2 id="弹性上班与调休"><a href="#弹性上班与调休" class="headerlink" title="弹性上班与调休"></a>弹性上班与调休</h2><p>入职前 HR 说弹性上班，入职后大 leader 说迟到发红包，累计五次请全组吃 KFC，迟到要惩罚，加班倒是没见过有补偿，超过十点才能申请打车补贴（笑哭），弹的原来是我的下班时间</p>
+<p>最有趣是的加班时大 leader 会带着几个人在会议室打牌，出来喝水还问别人一句还没下班在这忙什么（流汗黄豆）</p>
+<p>周末节假日加班不给三倍工资，给的是调休，甚至不是三倍调休，查了一下发现全南山都是这样（据说是企鹅开的头）。等到申请调休了又让你帮忙紧急支持一下业务需求，批不批看命</p>
+<h2 id="明日之星与活水计划"><a href="#明日之星与活水计划" class="headerlink" title="明日之星与活水计划"></a>明日之星与活水计划</h2><p>干久了才知道，明日之星就是新人保底十连抽，转正后的限时体验卡，HR 的 KPI，人均明日之星</p>
+<p>活水计划美其名曰鼓励员工主动调岗，发展自己，实则是降本增效，哪里缺水补哪里，咱们就是个移动水泵</p>
+<p>话说活水计划这名字取得真不错，水往低处流，这人啊，就和这水一样，不受控制地往屎坑里走</p>
+<h2 id="降本增效之大-leader-下场教人写代码"><a href="#降本增效之大-leader-下场教人写代码" class="headerlink" title="降本增效之大 leader 下场教人写代码"></a>降本增效之大 leader 下场教人写代码</h2><p>某天这帮 leader 和老板开完会议后，回来紧急裁了 n 个人，估计是老板发话了，无论如何都得裁人，管你是不是大动脉这那的</p>
+<p>后面人不够用了，直接打出一张活水计划的王炸，从其他部门借人过来，完美解决问题</p>
+<p>其次是大 leader 要搞配置化，要不然没事情和老板交代，于是自己也下场写代码，没事就在大群暗讽谁谁谁代码写得不好，周会上强调自己积极自测，结果回头一看写了一堆重复代码，不自测直接发测试环境让测试同事直接开测，期间由于各种 bug 白天就要陪大 leader 写代码（同时倾听老板的代码美学），晚上才来写需求</p>
+<h2 id="实习生"><a href="#实习生" class="headerlink" title="实习生"></a>实习生</h2><p>入职一年后来了个实习生，直接上手写代码，由于需求很多导师也没怎么辅导（问就是这个需求很简单的，多看阅读多点看别人怎么写的，要有 owner 意识），等到实习生度过了三个月实习期+六个月试用期快转正了，找了个需求延期上线，被业务投诉的理由，直接开除，完美白嫖人家一年时间，还不用承担多大成本，直接实现使用实习生降本增效99%，无敌了</p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>我知道说这些事情很无聊，但就是这些事情过于无聊，和入职前的期待大相庭径，才值得一说</p>
+<p>我的想法是</p>
+<ul>
+<li>对自己好点，早点下班，工作不是全部</li>
+<li>选择时薪最高的工作，就像公司会挑最少钱最用工的员工一样</li>
+<li>不用有愧疚感，因为他们也没有</li>
+</ul>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Go tour Go 语言之旅 练习题</title>
     <url>/archives/988733517/</url>
     <content><![CDATA[<p>记: 被 Go 的协程和 channel 弄晕的一天  </p>
@@ -670,20 +706,6 @@
 ]]></content>
       <categories>
         <category>Books</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My First archive</title>
-    <url>/archives/2043672006/</url>
-    <content><![CDATA[<p>文章测试</p>
-<p>$$<br>\pi = \frac a b<br>$$</p>
-<a id="more"></a>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"hello"</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tools</category>
       </categories>
   </entry>
 </search>
